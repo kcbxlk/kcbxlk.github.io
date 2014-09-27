@@ -15,7 +15,7 @@ body {
   background: #F0F0F0;
   color: #444035;
   font-size: 100%;
-  font-family: arial, serif;
+  font-family: 'Open Sans', sans-serif;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 
@@ -30,6 +30,7 @@ body {
 }
 
 .navbar {
+  font-family: 'Bitter', serif;
   position: fixed;
   top: 0;
   right: 0;
@@ -42,22 +43,22 @@ body {
 
 .navbar .brand {
   float: left;
-  margin: 17px 0;
+  margin: 0.8em 0;
   font-weight: bold;
 }
 
 .navbar .brand a {
-  color: #444035;
-  font-size: 22px;
+  color: #555555;
+  font-size: 2.5em;
   text-decoration: none;
 }
 
 .navbar .brand a:visited {
-  color: #444035;
+  color: #555555;
 }
 
 .navbar ul {
-  margin: 18px 0;
+  margin: 1.5em 0;
   float: right;
   list-style: none;
 }
@@ -70,7 +71,7 @@ body {
 .navbar ul li a {
   color: #444035;
   text-decoration: none;
-  font-family: cursive;
+  font-family: 'Bitter', serif;
   font-weight: normal;
   font-size: 14px;
 }
@@ -100,8 +101,12 @@ body {
 
 .main h1 {
   margin: 0;
-  font-size: 50px;
-  font-family: cursive;
+  font-size: 3.5em;
+  font-family: 'Bitter', serif;
+}
+
+.main .headline {
+  font-family: 'Bitter', serif;
 }
 
 .main .unit {
@@ -132,8 +137,8 @@ body {
 }
 
 #ser .title p {
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 1.3em;
+  margin: 0;
   color: #a0977d;
 }
 
@@ -153,6 +158,7 @@ body {
   font-size: 14px;
   color: #ff7454;
   margin: 20px 0 10px 0;
+  font-family: 'Bitter', serif;
 }
 
 #ser .row .block p {
@@ -171,9 +177,13 @@ body {
   margin: 20px 0 40px 0;
 }
 
+#por .title h1 {
+  color: #95412c;
+}
+
 #por .title p {
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 1.3em;
+  margin: 0;
   color: white;
 }
 
@@ -194,6 +204,7 @@ body {
 
 #por .row .block h3.title {
   margin: 15px 0 0 0;
+  font-family: 'Bitter', serif;
 }
 
 #por .row .block a {
@@ -212,9 +223,15 @@ body {
 }
 
 #team .title p {
-  font-size: 14px;
+  font-size: 1.3em;
   color: #444035;
+  margin: 0;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+#team .title p.headline {
+  color: #a0977d;
+  margin: 0 0 1.5em 0;
 }
 
 #team .row {
@@ -249,8 +266,13 @@ body {
   margin: 20px 0 40px 0;
 }
 
-#contact .title p {
-  font-size: 14px;
-  color: #444035;
+#contact .title h1 {
+  color: #9f7000;
+}
+
+#contact .title p.headline {
+  color: #a9862b;
+  margin: 0;
+  font-size: 1.3em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
