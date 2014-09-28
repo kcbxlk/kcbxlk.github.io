@@ -43,13 +43,13 @@ body {
 
 .navbar .brand {
   float: left;
-  margin: 0.8em 0;
   font-weight: bold;
 }
 
 .navbar .brand a {
   color: #555555;
   font-size: 2.5em;
+  line-height: 60px;
   text-decoration: none;
 }
 
