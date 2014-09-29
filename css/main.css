@@ -30,15 +30,15 @@ body {
 }
 
 .navbar {
-  font-family: 'Bitter', serif;
-  position: fixed;
   top: 0;
   right: 0;
   left: 0;
+  position: fixed;
   z-index: 1000;
-  background-color: #efebe0;
-  text-align: center;
   height: 60px;
+  text-align: center;
+  background: url(../img/pattern-1.jpg) #efebe0;
+  font-family: 'Bitter', serif;
 }
 
 .navbar .brand {
@@ -58,14 +58,15 @@ body {
 }
 
 .navbar ul {
-  margin: 1.5em 0;
+  margin: 0;
   float: right;
   list-style: none;
+  line-height: 60px
 }
 
 .navbar ul li {
   float: left;
-  margin-left: 20px;
+  margin-left: 2em;
 }
 
 .navbar ul li a {
@@ -73,7 +74,7 @@ body {
   text-decoration: none;
   font-family: 'Bitter', serif;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 1.2em;
 }
 
 .navbar ul li a:visited {
@@ -114,7 +115,7 @@ body {
 }
 
 #home {
-  background-color: #8FDDDD;
+  background: #8FDDDD url(../img/pattern-4.jpg) repeat;
 }
 
 #home h1 {
@@ -128,7 +129,7 @@ body {
 }
 
 #ser {
-  background-color: #EEEADF;
+  background: #EEEADF url(../img/pattern-1.jpg) repeat;
 }
 
 #ser .title {
@@ -148,7 +149,7 @@ body {
 
 #ser .row .block {
   float: left;
-  width: 30%;
+  width: 25em;
   margin: 0 1.5%;
   padding: 20px;
   text-align: center;
@@ -169,7 +170,7 @@ body {
 }
 
 #por {
-  background-color: #FE7757;
+  background: #FE7757 url(../img/pattern-3.jpg) repeat;
 }
 
 #por .title {
@@ -193,12 +194,13 @@ body {
 
 #por .row .block {
   float: left;
-  width: 25%;
-  padding: 2%;
+  width: 21.3em;
+  padding: 1%;
   text-align: center;
 }
 
 #por .row .block img {
+  margin: 0 auto;
   width: 90%;
 }
 
@@ -214,7 +216,7 @@ body {
 }
 
 #team {
-  background-color: #EEEADF;
+  background: #EEEADF url(../img/pattern-1.jpg) repeat;
 }
 
 #team .title {
@@ -240,7 +242,7 @@ body {
 
 #team .row .block {
   float: left;
-  width: 30%;
+  width: 25em;
   margin: 0 1.5%;
   padding: 20px;
   text-align: center;
@@ -258,7 +260,7 @@ body {
 }
 
 #contact {
-  background-color: #F9CF6B;
+  background: #F9CF6B url(../img/pattern-2.jpg) repeat;
 }
 
 #contact .title {
@@ -275,4 +277,13 @@ body {
   margin: 0;
   font-size: 1.3em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+#contact #socials {
+  margin: 6em 0;
+}
+
+#contact #socials a {
+  text-decoration: none;
+  margin: 1.5em;
 }
