@@ -149,9 +149,10 @@ body {
 
 #ser .row .block {
   float: left;
-  width: 25em;
+  width: 25.5em;
+  max-width: 100%;
   margin: 0 1.5%;
-  padding: 20px;
+  padding: 2em;
   text-align: center;
 }
 
@@ -195,6 +196,7 @@ body {
 #por .row .block {
   float: left;
   width: 21.3em;
+  max-width: 100%;
   padding: 1%;
   text-align: center;
 }
@@ -242,14 +244,15 @@ body {
 
 #team .row .block {
   float: left;
-  width: 25em;
+  width: 25.5em;
+  max-width: 100%;
   margin: 0 1.5%;
-  padding: 20px;
+  padding: 2em;
   text-align: center;
 }
 
 #team .row .block img {
-  width: 120px;
+  width: 60%;
   border-radius: 50%;
 }
 
